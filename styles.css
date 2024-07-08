@@ -167,10 +167,12 @@ section {
 }
 
 .role-bold {
+    font-size: 16px; /* Taille de police uniforme */
     font-weight: bold;
 }
 
 .role-developer {
+    font-size: 16px; /* Taille de police uniforme */
     font-weight: bold;
     color: red;
 }
