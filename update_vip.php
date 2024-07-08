@@ -1,10 +1,10 @@
 <?php
 header('Content-Type: application/json');
 
-$host = 'localhost'; // Remplace par ton hôte de base de données
-$db = 'your_database'; // Remplace par le nom de ta base de données
-$user = 'your_username'; // Remplace par ton nom d'utilisateur de base de données
-$pass = 'your_password'; // Remplace par ton mot de passe de base de données
+$host = 'database.game-01.dragonhosting.fr:3306'; // Remplace par ton hôte de base de données
+$db = 's1_boutique'; // Remplace par le nom de ta base de données
+$user = 'u1_m3vxpsDMhN'; // Remplace par ton nom d'utilisateur de base de données
+$pass = 'N9spo@^3KVJ7Hp^ld2ZuID6M'; // Remplace par ton mot de passe de base de données
 
 $mysqli = new mysqli($host, $user, $pass, $db);
 
